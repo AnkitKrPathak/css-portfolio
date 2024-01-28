@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(2, 2, 28);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(4, 4, 60);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(170, 170, 234);
+  font-size: 1.02rem;
+}
+
+main hr {
+  border: 0;
+  background: rgb(170, 170, 234);
+  height: 1.2px;
+  margin: 40px 74px;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+}
+.firstSection > div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 2.5rem;
+}
+.leftSection .buttons {
+  padding: 40px;
+}
+.leftSection .btn {
+  padding: 20px;
+  background: rgb(16, 16, 96);
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.rightSection img {
+  width: 60%;
+}
+.purple {
+  color: rgb(139, 62, 210);
+}
+.text-gray {
+  color: gray;
+}
+#element {
+  color: rgb(139, 62, 210);
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondSection h1 {
+  font-size: 1.6rem;
+  margin-bottom: 70px;
+}
+
+.secondSection .box {
+  background: white;
+  width: 60vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.secondSection .vertical {
+  height: 85px;
+  width: 1px;
+  background-color: white;
+  margin: 0 150px;
+}
+
+.image-top {
+  width: 40px;
+  position: relative;
+  top: -35px;
+  left: -9px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 60px;
+  width: 150px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 65px;
+  color: gray;
+  width: 150px;
+  font-size: 14px;
+}
+
+footer {
+  background-color: rgb(19, 5, 32);
+}
+.footer {
+  display: flex;
+  padding: 15px;
+  justify-content: space-evenly;
+}
+.footer ul {
+  list-style: none;
+}
+.footer > div {
+  width: 223px;
+}
+
+footer .copyRight-text {
+  text-align: center;
+  padding: 12px;
+  color: gray;
+}
